@@ -1,0 +1,29 @@
+Count/Frequency Enconding:
+
+	Substitui as categorias pela contagem das observações no conjunto de dados.
+
+	Da mesma forma, podemos substituir a categoria pela frequência (ou porcentagem) de observações no conjunto de dados e nesse caso teríamos Frequency Enconding.
+
+	Ou seja, se 5 de nossas 10 observações mostram a cor prata, substituímos prata por 5 se estivermos fazendo a codificação de contagem ou por 0.5 se 	substituíssimos pela frequência.
+
+	Usamos esse tipo de enconding quando a variável possui um número muito alto de categorias.
+	
+	Limitação: Se duas categorias diferentes aparecem a mesma quantidade de vezes no conjunto de dados, serão substituídas pelo mesmo número, podendo portanto, 	perder informações valiosas.
+
+
+Label Encoding:
+
+Label Enconding (ou integer enconding) é a substituição de uma categoria por sua representação numérica correspondente.
+
+Usamos o label enconding quando temos um número baixo de categorias.
+
+Limitação: Label Enconding não é adequado para modelos lineares como regressão logística.
+
+
+One-hot Enconding:
+
+É a codificação de cada variável categórica em diferentes variáveis booleanas (também chamadas de variáveis dummy) que assumem valores 0 ou 1, indicando se uma categoria está ou não presente em uma observação.
+
+Usamos One-Hot Enconding quando precisamos estabelecer uma relação binária entre as categorias.
+
+Limitação: Expande a dimensão à medida que o número de colunas aumenta, o que pode levar a diversos problemas no processo de análise e modelagem preditiva.
