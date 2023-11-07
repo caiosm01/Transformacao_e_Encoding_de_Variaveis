@@ -27,3 +27,5 @@ One-hot Enconding:
 Usamos One-Hot Enconding quando precisamos estabelecer uma relação binária entre as categorias.
 
 Limitação: Expande a dimensão à medida que o número de colunas aumenta, o que pode levar a diversos problemas no processo de análise e modelagem preditiva.
+
+teste
