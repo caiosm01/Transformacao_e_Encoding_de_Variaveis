@@ -1,14 +1,14 @@
 Count/Frequency Enconding:
 
-	Substitui as categorias pela contagem das observações no conjunto de dados.
+Substitui as categorias pela contagem das observações no conjunto de dados.
 
-	Da mesma forma, podemos substituir a categoria pela frequência (ou porcentagem) de observações no conjunto de dados e nesse caso teríamos Frequency Enconding.
+Da mesma forma, podemos substituir a categoria pela frequência (ou porcentagem) de observações no conjunto de dados e nesse caso teríamos Frequency Enconding.
 
-	Ou seja, se 5 de nossas 10 observações mostram a cor prata, substituímos prata por 5 se estivermos fazendo a codificação de contagem ou por 0.5 se 	substituíssimos pela frequência.
+Ou seja, se 5 de nossas 10 observações mostram a cor prata, substituímos prata por 5 se estivermos fazendo a codificação de contagem ou por 0.5 se 	substituíssimos pela frequência.
 
-	Usamos esse tipo de enconding quando a variável possui um número muito alto de categorias.
+Usamos esse tipo de enconding quando a variável possui um número muito alto de categorias.
 	
-	Limitação: Se duas categorias diferentes aparecem a mesma quantidade de vezes no conjunto de dados, serão substituídas pelo mesmo número, podendo portanto, 	perder informações valiosas.
+Limitação: Se duas categorias diferentes aparecem a mesma quantidade de vezes no conjunto de dados, serão substituídas pelo mesmo número, podendo portanto, 	perder informações valiosas.
 
 
 Label Encoding:
