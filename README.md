@@ -1,0 +1,1 @@
+# Transformacao_e_Encoding_de_Variaveis
